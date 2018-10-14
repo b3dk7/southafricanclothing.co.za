@@ -1,0 +1,30 @@
+ body {
+    background: #262626;
+		color: #f2f2cc;
+}
+
+
+ /* unvisited link */
+a:link {
+    color: #99f2cc;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+} 
+
+.logo {
+	font-family: "Lucida Console", Monaco, monospace;
+	/*text-align: center;*/
+}
