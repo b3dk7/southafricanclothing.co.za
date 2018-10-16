@@ -6,25 +6,34 @@
 
  /* unvisited link */
 a:link {
-    color: #99f2cc;
+    color: #f2f2cc;
+    text-decoration: underline;
 }
 
 /* visited link */
 a:visited {
-    color: green;
+    color: #f2f2cc;
+    text-decoration: underline;
 }
 
 /* mouse over link */
 a:hover {
-    color: hotpink;
+    color: #f2f2cc;
+    font-weight: bold;
 }
 
 /* selected link */
 a:active {
-    color: blue;
+    color: #f2f2cc;
 } 
 
 .logo {
 	font-family: "Lucida Console", Monaco, monospace;
 	/*text-align: center;*/
+    background-color: #7e7e7e;
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
 }
+
